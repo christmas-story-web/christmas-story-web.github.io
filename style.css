@@ -1,5 +1,14 @@
 /* layout styles for the christmas story */
 
+/* define variables */
+:root {
+    --nav-height: 3rem;
+    --nav-bkgd-color: gray;
+    --nav-text-color: white;
+    --nav-hover-bkgd-color: lightgray;
+    --nav-hover-text-color: black;
+}
+
 * {
     box-sizing: border-box;
 }
