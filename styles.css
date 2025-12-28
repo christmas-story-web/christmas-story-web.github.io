@@ -3,8 +3,8 @@
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: gray;
-    --nav-text-color: white;
+    --nav-bkgd-color: white;
+    --nav-text-color: black;
     --nav-hover-bkgd-color: lightgray;
     --nav-hover-text-color: black;
 }
@@ -117,6 +117,7 @@ nav > ul > li > ul > li:hover a {
 main {
     width: 100%;
     max-width: 900px;
+    margin: 0 auto;
 }
 
 section {
@@ -127,6 +128,7 @@ section {
 .verses {
     width: 90%;
     float: left;
+    padding-left: 1em;
 }
 
 .references {
