@@ -118,3 +118,18 @@ main {
     width: 100%;
     max-width: 900px;
 }
+
+section {
+    display: block;
+    width: 100%;
+}
+
+.verses {
+    width: 90%;
+    float: left;
+}
+
+.references {
+    width: 10%;
+    float: right;
+}
